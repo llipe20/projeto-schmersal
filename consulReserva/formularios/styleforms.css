@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Right+Slab+Wide&display=swap');
+  
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('..');
+    font-family: 'Right Slab Wide', sans-serif;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,0.36458333333333337) 0%, rgba(68,214,250,0.3029586834733894) 50%, rgba(70,252,250,0.31976540616246496) 73%);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+    padding: 1rem;
+}
+
+.form-image img{
+    margin-left: ;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff9f9;
+    padding: 3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: auto; 
+
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+.form-header h1::after {
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+    display: block;
+    width: 400px;
+    opacity: 1;
+}
+
+.input-box {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 1.1rem;
+    text-align: center;
+}
+
+
+label{
+    font-size: 20px;
+  
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    font-size: 20px;
+}
+
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+select, input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4cafaf;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.back-button a{
+    text-decoration:none;
+    color: white;
+}
+
+.button:visited {
+    color: white;
+  }
+
+.continue-button {
+    text-align: center;
+    display: inline-block;
+}
+
+.butoes{
+    text-align: center;
+}
+
+.button input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4cafaf;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+.add_cartao{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add_cartao a{
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+}
+
